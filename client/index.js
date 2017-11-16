@@ -12,11 +12,11 @@ const store = createStore(reducers, compose(
   window.devToolsExtension ? window.devToolsExtension() : f => f
 )) 
 
-document.addEventListener('DOMContentLoaded', () => {
-  render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-    document.getElementById('app')
-  )
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//   render(
+//     <Provider store={store}>
+//       <App />
+//     </Provider>,
+//     document.getElementById('app')
+//   )
+// })
